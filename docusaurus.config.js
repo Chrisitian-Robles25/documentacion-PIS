@@ -9,20 +9,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Foranix',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Documentacion de la Aplicacion web seguimiento al rendimieto estudiantil',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://christian-robles25.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/documentacion-PIS',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'christian-robles25', // Usually your GitHub org/user name.
+  projectName: 'documentacion-PIS', // Usually your repo name.
+  deploymentBranch: 'gh-pages', //
+  trailingSlash: false, // Set trailing
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -66,7 +67,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Foranix',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -93,7 +94,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentacion',
                 to: '/docs/intro',
               },
             ],
@@ -119,7 +120,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Miembros',
                 to: '/blog',
               },
               {
